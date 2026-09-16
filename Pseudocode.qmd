@@ -1,6 +1,6 @@
 ---
 # Metadaten / meta data
-title: "Werkzeugbaustein Pseudocode"
+title: "Pseudocode Tool Module"
 author:
   - Lukas Arnold
   - Simone Arnold
@@ -13,20 +13,20 @@ author:
 date: today # "2024-03-05" Jahr-Monat-Tag / year-month-day
 
 ## Spracheinstellungen / language settings
-lang: de
+lang: en
 language:
-  de:
+  en:
     crossref-imp-title: "Definition"
     crossref-imp-prefix: "Definition"
-    crossref-lst-title: "Code-Block"
-    crossref-lst-prefix: "Code-Block"
-    crossref-nte-title: "Beispiel"
-    crossref-nte-prefix: "Beispiel"
-    crossref-tip-title: "Tipp"
-    crossref-tip-prefix: "Tipp"
-    crossref-wrn-title: "Hinweis"
-    crossref-wrn-prefix: "Hinweis"
-    
+    crossref-lst-title: "Code Block"
+    crossref-lst-prefix: "Code Block"
+    crossref-nte-title: "Example"
+    crossref-nte-prefix: "Example"
+    crossref-tip-title: "Tip"
+    crossref-tip-prefix: "Tip"
+    crossref-wrn-title: "Note"
+    crossref-wrn-prefix: "Note"
+
 # Dokumenteneinstellungen / document options
 engine: knitr # jupyter kann den CSS-Code für Blocksatz nicht verarbeiten
 
@@ -56,7 +56,7 @@ format:
 ## Inhaltsverzeichnis / table of contents
 toc: true
 toc-title:  |
-  Werkzeugbaustein Pseudocode 
+  Pseudocode Tool Module
 
   ![](skript/00-bilder/logo_with_text_new.svg)
 number-sections: true
@@ -87,23 +87,23 @@ fig-asp: 0.618
 :::: {layout="[20, 80]"}
 ![](skript/00-bilder/CC-BY.svg){fig-alt="Symbol des Lizenzhinweises Creative Commons BY"} <!-- Grafik ohne Titel und Dateiendung einbinden -->  
 
-Bausteine Computergestützter Datenanalyse von Lukas Arnold, Simone Arnold, Florian Bagemihl, Matthias Baitsch, Marc Fehr, Franca Hollmann, Maik Poetzsch und Sebastian Seipel. Werkzeugbaustein Pseudocode von Maik Poetzsch ist lizensiert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de). Das Werk ist abrufbar auf [GitHub](https://github.com/bausteine-der-datenanalyse). Ausgenommen von der Lizenz sind alle Logos und anders gekennzeichneten Inhalte. 2025
+Bausteine Computergestützter Datenanalyse by Lukas Arnold, Simone Arnold, Florian Bagemihl, Matthias Baitsch, Marc Fehr, Franca Hollmann, Maik Poetzsch and Sebastian Seipel. Pseudocode Tool Module by Maik Poetzsch is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). The work is available on [GitHub](https://github.com/bausteine-der-datenanalyse). Excluded from the license are all logos and otherwise marked content. 2025
 
 ::::
 
-Zitiervorschlag
+Suggested Citation
 
-Arnold, Lukas, Simone Arnold, Florian Bagemihl, Matthias Baitsch, Marc Fehr, Franca Hollmann, Maik Poetzsch, und Sebastian Seipel. 2025. „Bausteine Computergestützter Datenanalyse. Werkzeugbaustein Pseudocode“. <https://github.com/bausteine-der-datenanalyse/w-pseudocode>.
+Arnold, Lukas, Simone Arnold, Florian Bagemihl, Matthias Baitsch, Marc Fehr, Franca Hollmann, Maik Poetzsch, and Sebastian Seipel. 2025. “Bausteine Computergestützter Datenanalyse. Pseudocode Tool Module”. <https://github.com/bausteine-der-datenanalyse/w-pseudocode-en>.
 
 
-BibTeX-Vorlage
+BibTeX Template
 
 ```
 @misc{BCD-pseudocode-2025,
- title={Bausteine Computergestützter Datenanalyse. Werkzeugbaustein Pseudocode},
+ title={Bausteine Computergestützter Datenanalyse. Pseudocode Tool Module},
  author={Arnold, Lukas and Arnold, Simone and Bagemihl, Florian and Baitsch, Matthias and Fehr, Marc and Hollmann, Franca and Poetzsch, Maik and Seipel, Sebastian},
  year={2025},
- url={https://github.com/bausteine-der-datenanalyse/w-pseudocode}} 
+ url={https://github.com/bausteine-der-datenanalyse/w-pseudocode-en}}
 ```
 
 :::
@@ -243,7 +243,7 @@ Learning goals: Describe data analysis using pseudocode.
 ## Own Project
 Here you can note down your task or project goal. Please note that your text will not be saved.
 
-<textarea id=“own-project” name=“own-project” rows="4" cols="50"></textarea>
+<textarea id="own-project" name="own-project" rows="4" cols="50"></textarea>
 
 ## Baking a Sweet Braid
 Your friend Lisa sends you a recipe she found online. She writes that she can arrive an hour earlier than planned tomorrow to bake together with you – working together will be faster than the 65 minutes stated in the recipe. Lisa also asks if she should bring any ingredients.
@@ -300,7 +300,7 @@ Meanwhile, preheat the oven to **200°C top/bottom heat (180°C fan)**. Brush th
 ::::
 
 ## Vitamin C in Guinea Pigs
-In a group of 60 guinea pigs, the length of odontoblasts (tooth-forming cells) was measured in microns (**len**). The animals had previously been given Vitamin C as ascorbic acid (VC) or orange juice (VC) (**supp**). The guinea pigs received doses of 0.5, 1, or 2 milligrams of Vitamin C per day (**dose**). [@Crampton.1947]
+In a group of 60 guinea pigs, the length of odontoblasts (tooth-forming cells) was measured in microns (**len**). The animals had previously been given Vitamin C as ascorbic acid (VC) or orange juice (OJ) (**supp**). The guinea pigs received doses of 0.5, 1, or 2 milligrams of Vitamin C per day (**dose**). [@Crampton.1947]
 
 **What effect does Vitamin C have on tooth growth in guinea pigs? Describe your approach using pseudocode or a flowchart to determine the effect of supplement type and dose.**
 
